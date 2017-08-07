@@ -116,7 +116,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 55px;
 	height: 55px;
 	position: absolute;
-	left: 90px;
+	left: 10px;
 	top: 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
