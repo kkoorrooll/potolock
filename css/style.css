@@ -119,6 +119,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	left: 10px;
 	top: 5px;
 }
+#menu .contact-item{
+	display: inline-block;
+	padding: 20px 0;
+}
+#menu .contact-item p {
+	margin: 0;
+	color: #fff;
+    font-size: 16px;
+    /* text-align: center; */
+}
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #ddd;
@@ -398,10 +408,9 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
+	margin: 15px auto;
 	height: 75%;
-	width: 75%;
-	margin-left:25%; 
+	width: 75%; 
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
@@ -651,4 +660,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 #footer a:hover {
 	color: #333;
+}
+@media screen and (min-width: 768px){
+	#menu .contact-item {
+		padding: 0 0 0 50px;
+	}	
+	#menu .contact-item p{
+		margin: 0;
+		font-size: 14px;
+		/* text-align: center; */
+	}
 }
